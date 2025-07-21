@@ -7,7 +7,9 @@ export default function Index() {
     <View className="flex-1 items-center justify-center ">
       <Image source={images.logo} className="size-40" resizeMode="contain" />
 
-      <Text className="font-bold text-3xl text-blue-600">Welcome to Vault</Text>
+      <Text className="font-inter-bold text-3xl text-blue-600">
+        Welcome to Vault
+      </Text>
     </View>
   );
 }
